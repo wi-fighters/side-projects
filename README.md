@@ -6,6 +6,7 @@ Project duration: 1 week
 
 ## Intro
 
+Let's try a small solo project before complicating things with more humans. How do you manage your own time when you're the only one responsible?
 
 ## Ideation phase
 
@@ -73,3 +74,4 @@ Decide on a project, make a plan, find a buddy and get started.
     - Clone this repo.
     - Create your own branch (use your name, e.g. `eva`).
     - Create your own directory (e.g. `2019-12-17 <project-name>`). Keep your project files in this directory to avoid conflicts.
+    - Copy project-log-template.md into your directory (rename it to `README.md`)
