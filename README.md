@@ -1,7 +1,8 @@
 # Mini Solo Project
 
 Workshop: Tues 17 Dec 2019
-Duration: 1 week
+
+Project duration: 1 week
 
 ## Intro
 
