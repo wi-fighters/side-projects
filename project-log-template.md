@@ -16,10 +16,18 @@
 - What content is required? How will you obtain / create it? How will that impact your timeline?
 - What work needs to be done? In what order (priorities/dependencies)?
 
+## Wireframes
+
+(sketch something quickly but clearly, e.g. on paper, and upload a picture here - or several, if you have different screens. consider mobile + desktop versions)
+
 ## Time
 
 - Estimated (add this before getting started)
 - Actual (add this on project completion)
+
+## New skills
+
+(what did you research for this project?)
 
 ## Challenges + lessons learned
 
@@ -27,11 +35,7 @@
 
 ## Achievements
 
-(did you learn something new? try some new tech? surprise yourself?)
-
-## What did you do this time that was an improvement on last time?
-
-(acknowledge your progress, you've earned it!)
+(What did you do this time that was an improvement on last time? Acknowledge your progress, you've earned it!)
 
 ## Buddy sign-off
 

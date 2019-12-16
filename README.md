@@ -47,7 +47,7 @@ For each idea, discuss:
 - Who is the intended user? (Only you, for practice? Recruiters/interviewers? A real client's real users?)
 - Who is the sponsor (client), if there is one?
 - What content is required? How will you obtain / create it? How will that impact your timeline?
-- What work needs to be done? In what order (priorities/dependencies)?
+- What work needs to be done? In what order (priorities/dependencies)? Include any research tasks here.
 
 ## Project selection and kickoff
 
@@ -74,4 +74,7 @@ Decide on a project, make a plan, find a buddy and get started.
     - Clone this repo.
     - Create your own branch (use your name, e.g. `eva`).
     - Create your own directory (e.g. `2019-12-17 <project-name>`). Keep your project files in this directory to avoid conflicts.
-    - Copy project-log-template.md into your directory (rename it to `README.md`)
+    - Copy project-log-template.md into your directory (rename it to `README.md`) and fill out everything up to the _estimated time_. Don't skip any of the sections. Commit this.
+    - Show your log to your buddy. If they say it looks good, (or if they're not available), show your teacher.
+
+    - With all that done, get into the research / code.
