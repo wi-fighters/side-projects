@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Girassol|Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3ef0b0d3e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Health App</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div id="heart"><i class="fas fa-heartbeat"></i></div>
+            <div id="events"><i class="fas fa-calendar-plus"></i></div>
+            <div id="consumption"><i class="fas fa-diagnoses"></i></div>
+        </nav>
+        <section id="for-info" class="Today's-Info">
+            <h1>Today'S Info</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nisi dolores doloremque officiis
+                reprehenderit labore alias, ullam reiciendis ad neque!</p>
+        </section>
+        <section id="for-heart" class="Today's-Info">
+            <h1>Heart Info</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nisi dolores doloremque officiis
+                reprehenderit labore alias, ullam reiciendis ad neque!</p>
+        </section>
+        <section id="for-events" class="Today's-Info">
+            <h1>Coming Events</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, sit! Maiores ea dolor autem
+                accusantium delectus odio in ad ullam?</p>
+        </section>
+        <section id="for-consumption" class="Today's-Info">
+            <h1>Consumption</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia impedit aperiam cumque corporis sequi
+                velit enim quam cum illum nostrum.</p>
+        </section>
+        <footer>
+            <div id="call" class="call-icon">
+                <i class="fas fa-phone-volume"></i>
+            </div>
+        </footer>
+
+    </main>
+    <script>
+        let heart = document.getElementById("heart");
+        let events = document.getElementById("events");
+        let consumption = document.getElementById("consumption");
+        let forheart = document.getElementById("for-heart");
+        let forevents = document.getElementById("for-events");
+        let forconsumption = document.getElementById("for-consumption");
+        let forinfo = document.getElementById("for-info");
+
+        heart.addEventListener("click", function () {
+            forinfo.style.display = "none";
+            forevents.style.display = "none";
+            forconsumption.style.display = "none";
+            forheart.style.display = "block";
+            forheart.style.animationPlayState = "running";
+            forheart.style.transition = "1s";
+
+        })
+
+        events.addEventListener("click", function () {
+            forinfo.style.display = "none";
+            forevents.style.display = "block";
+            forevents.style.animationPlayState = "running";
+            forconsumption.style.display = "none";
+            forheart.style.display = "none";
+            forevents.style.transition = "1s";
+        })
+        consumption.addEventListener("click", function () {
+            forinfo.style.display = "none";
+            forevents.style.display = "none";
+            forconsumption.style.display = "block";
+            forconsuption.style.animationPlayState = "running";
+            forheart.style.display = "none";
+            forconsuption.style.transition = "1s";
+        })
+    </script>
+</body>
+
+</html>
