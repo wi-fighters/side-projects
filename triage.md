@@ -2,32 +2,38 @@
 
 ## Probably (if you put in the time, I reckon you got this)
 
-CSS art: Christmas tree
-CSS art: Snow globe
-CSS art: draw a phone in HTML + CSS. If there's time, add JS interactivity
-CSS art: animal walking around with hover effects
+### CSS art
 
-Website: HTML + CSS (inspiration: https://www.art.yale.edu/about/contact)... JS only if there's extra time
+- Christmas tree
+- Snow globe
+- draw a phone in HTML + CSS. If there's time, add JS interactivity
+- animal walking around with hover effects
+- Animation using keyframes
 
-CSS art: Animation using keyframes
+### Information website
 
-Kitchen duty generator (focus on either the front end or back end... both in a week would be a _Maybe_)
+- Oldschool website: HTML + CSS (inspiration: https://www.art.yale.edu/about/contact)... JS only if there's extra time
 
-Decision tree (focus on either the front or the back) e.g. Identify why the tree is sick
+- Homepage / landing page for a real-world website
 
-Konfigurate your own pizza (toppings, maybe prices...)
+- Numerology site: Enter a date, get an image + desscription back (can't tell you lotto numbers)
 
-Prototype of a UGC (user-generated content) web app for posting anonymous letters
+### JS app (mostly back end)
 
-Prototype for a flashcard app (e.g. for learning language vocabulary)
+- Kitchen duty generator (focus on either the front end or back end... both in a week would be a _Maybe_)
 
-Prototype for 2 views of a mobile app (as a mobile-only website). Layout first, then if there's time, add complexity (fancy graphics / polish / more views).
+- Decision tree (focus on either the front or the back) e.g. Identify why the tree is sick
 
-Numerology site: Enter a date, get an image + desscription back (can't tell you lotto numbers)
+- Konfigurate your own pizza (toppings, maybe prices...)
 
-Homepage / landing page for a real-world website
+### Front-end prototypes for a larger app
 
-## Maybe (sounds ambitious, but you might surprise me)
+- Prototype of a UGC (user-generated content) web app for posting anonymous letters
+
+- Prototype for a flashcard app (e.g. for learning language vocabulary)
+
+- Prototype for 2 views of a mobile app (as a mobile-only website). Layout first, then if there's time, add complexity (fancy graphics / polish / more views)
+
 
 ## Maybe later (cool idea, but not this week)
 
