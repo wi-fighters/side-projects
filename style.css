@@ -34,6 +34,10 @@ section {
     margin-bottom: 3vh;
 }
 
+p {
+    padding: 1rem;
+}
+
 footer {
     display: flex;
     justify-content: center;
@@ -81,25 +85,30 @@ footer {
 }
 
 #for-heart {
+    left: -30%;
     animation: heart 2s forwards 1;
     animation-play-state: paused;
 }
 
 #for-events {
-    left: 20%;
+    left: -10%;
     animation: events 2s forwards 1;
     animation-play-state: paused;
 }
 
 
 #for-consumption {
-    left: 60%;
+    left: 35%;
     animation: consumption 2s forwards 1;
     animation-play-state: paused;
 }
 
 
 @keyframes heart {
+    30% {
+        transform: scale(0.3) translate(-100px, 50px);
+    }
+
     100% {
         transform: scale(1) translate(0px, 0px);
         top: 0px;
@@ -109,15 +118,24 @@ footer {
 }
 
 @keyframes events {
+    30% {
+        transform: scale(0.3) translate(-100px, 0);
+    }
+
     100% {
-        transform: scale(1) translate(0px, 0px);
+
+        transform: scale(1);
         top: 0px;
         left: 10px;
 
     }
 }
 
-@keyframes comsuption {
+@keyframes consumption {
+    30% {
+        transform: scale(0.3) translate(-30px, 0);
+    }
+
     100% {
         transform: scale(1) translate(0px, 0px);
         top: 0px;
