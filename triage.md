@@ -12,11 +12,11 @@
 
 ### Information website
 
-- Oldschool website: HTML + CSS (inspiration: https://www.art.yale.edu/about/contact)... JS only if there's extra time
+- Old-school website: HTML + CSS (inspiration: https://www.art.yale.edu/about/contact)... JS only if there's extra time
 
 - Homepage / landing page for a real-world website
 
-- Numerology site: Enter a date, get an image + desscription back (can't tell you lotto numbers)
+- Numerology site: Enter a date, get an image + description back (can't tell you lotto numbers)
 
 ### JS app (mostly back end)
 
