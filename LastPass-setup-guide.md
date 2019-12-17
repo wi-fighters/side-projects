@@ -1,4 +1,4 @@
-# Lesson 0: Set up your password manager
+# Set up your password manager
 
 With the power of being creative on the Internet comes the responsibility to pay attention to security: your own, and that of anyone who uses what you build.
 
