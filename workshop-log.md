@@ -8,11 +8,11 @@ First side-project workshop: Mini solo project
 
 ### CSS art
 
-- Francisco     - CSS art with animations
-- Federico      - CSS art with animations
-- Natalia       - CSS art with animations
-- Valery        - CSS art with animations
-- Hatem         - CSS art
+- Francisco     - CSS art (walking)
+- Federico      - CSS art (walking)
+- Natalia       - CSS art (Christmas)
+- Valery        - CSS art
+- Hatem         - CSS art (Christmas)
 - Jaime         - Draw a phone in HTML + CSS. If there's time, add JS
 
 ### back end
@@ -24,7 +24,7 @@ First side-project workshop: Mini solo project
 - Nicolas       - Front-end prototype for a decision tree
 - Manuel H      - Kitchen duty generator // front or back end?
 - Dana          - Prototype of a UGC (user-generated content) web app
-- Juan Pablo    - Prototype for 2 views of a mobile app
+- Juan          - Prototype for 2 views of a mobile app
 - Adrienn       - Redesign a website
 - Bernd         - Numerology site (website with form handling)
 - Marlon        - Homepage / landing page
