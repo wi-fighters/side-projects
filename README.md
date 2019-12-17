@@ -66,8 +66,8 @@ Decide on a project, make a plan, find a buddy and get started.
 
 ## Set up checklist
 
-- Create a free LastPass account. Keep all your project-related passwords here.
-- Create a free Toggl account. Record the time you spend on your project.
+- [Follow the LastPass setup guide](LastPass-setup-guide.md) to create a free LastPass account. Keep all your project-related passwords here.
+- [Create a free Toggl account](https://toggl.com/). Record the time you spend on your project.
 
 - Repo setup with your buddy (pair program this part, keep each other on track):
 
