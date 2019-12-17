@@ -12,7 +12,7 @@
 
 ### Information website
 
-- Old-school website: HTML + CSS (inspiration: https://www.art.yale.edu/about/contact)... JS only if there's extra time
+- Redesign a website: 2 pages of new CSS for an existing HTML structure (inspiration: https://www.art.yale.edu/about/contact)... JS only if there's extra time
 
 - Homepage / landing page for a real-world website
 
