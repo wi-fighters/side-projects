@@ -1,80 +1,42 @@
-# Mini Solo Project
+# Project log
 
-Workshop: Tues 17 Dec 2019
+(Replace everything in parentheses)
 
-Project duration: 1 week
+## Overview
 
-## Intro
+Make an animal appear to hover over the screen using CSS
 
-Let's try a small solo project before complicating things with more humans. How do you manage your own time when you're the only one responsible?
+## Details
 
-## Ideation phase
-
-### Goal
-
-Come up with lots and lots of ideas. Quantity over quality. Fill a page on both sides. Trust the process.
-
-### How
-
-Start alone, then get into groups and discuss.
-
-
-## Triage phase
-
-### Goal
-
-Narrow down ideas to the most feasible.
-
-### How
-
-Call out your ideas and your teacher will triage them according to feasibility:
-Probably / Maybe / Maybe later
-
-Together we'll discuss some possible hidden complexities of the ideas contributed.
-
-
-## Shortlist
-
-### Goal
-
-Flesh out the ideas that people are most interested in.
-
-### How
-
-For each idea, discuss:
+(Answer whatever's relevant from the questions below, and include any other interesting details. Delete any non-relevant parts of this list)
 
 - Is this a real project (does someone really want this built?) or is it just an exercise?
 - Who is the intended user? (Only you, for practice? Recruiters/interviewers? A real client's real users?)
 - Who is the sponsor (client), if there is one?
 - What content is required? How will you obtain / create it? How will that impact your timeline?
-- What work needs to be done? In what order (priorities/dependencies)? Include any research tasks here.
+- What work needs to be done? In what order (priorities/dependencies)?
 
-## Project selection and kickoff
+## Wireframes
 
-### Goal
+(sketch something quickly but clearly, e.g. on paper, and upload a picture here - or several, if you have different screens. consider mobile + desktop versions)
 
-Decide on a project, make a plan, find a buddy and get started.
+## Time
 
-### How
+- Estimated (add this before getting started)
+- Actual (add this on project completion)
 
-- If you're interested in the same project as other people, take a moment to discuss all your different ideas as a group, before getting started on your solo projects. Your perspectives may inspire each other :)
+## New skills
 
-- Make a plan for when you will set aside time to work on this
-- Find a buddy to keep you accountable (you will nag each other to stick to good `git` habits)
-- Talk your project through with your teacher and get started
+(what did you research for this project?)
 
+## Challenges + lessons learned
 
-## Set up checklist
+(What didn't go well? How would you advise future-you so it goes better next time?)
 
-- [Follow the LastPass setup guide](LastPass-setup-guide.md) to create a free LastPass account. Keep all your project-related passwords here.
-- [Create a free Toggl account](https://toggl.com/). Record the time you spend on your project.
+## Achievements
 
-- Repo setup with your buddy (pair program this part, keep each other on track):
+(What did you do this time that was an improvement on last time? Acknowledge your progress, you've earned it!)
 
-    - Clone this repo.
-    - Create your own branch (use your name, e.g. `eva`).
-    - Create your own directory (e.g. `2019-12-17 <project-name>`). Keep your project files in this directory to avoid conflicts.
-    - Copy project-log-template.md into your directory (rename it to `README.md`) and fill out everything up to the _estimated time_. Don't skip any of the sections. Commit this.
-    - Show your log to your buddy. If they say it looks good, (or if they're not available), show your teacher.
+## Buddy sign-off
 
-    - With all that done, get into the research / code.
+(get together with your buddy, check each other's logs for completeness, talk through your projects as a pair. Include their name here once you're finished.)
