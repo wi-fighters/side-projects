@@ -60,7 +60,9 @@ Decide on a project, make a plan, find a buddy and get started.
 - If you're interested in the same project as other people, take a moment to discuss all your different ideas as a group, before getting started on your solo projects. Your perspectives may inspire each other :)
 
 - Make a plan for when you will set aside time to work on this
+
 - Find a buddy to keep you accountable (you will nag each other to stick to good `git` habits)
+
 - Talk your project through with your teacher and get started
 
 
