@@ -3,10 +3,15 @@
     padding: 0;
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 100px;
+}
 
 .swapingImages {
     width: 1600px;
-    height: 700px;
+    height: 880px;
 }
 
 
@@ -79,9 +84,9 @@
 
 }
 
-@media screen (min-width: 1300px) {
+@media screen (max-width: 1300px) {
     .swapingImages {
-        width: 1900px;
-        height: 1300px;
+        width: 200px;
+        height: 596px;
     }
 }
