@@ -22,7 +22,7 @@
 
 ## Time
 
-- Estimated (add this before getting started)
+- Estimated (e.g. 7 hours over 1 week)
 - Actual (add this on project completion)
 
 ## New skills
