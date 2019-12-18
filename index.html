@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="startTimer()">
+    <div id="img" class="swapingImages"></div>
+    <div id="cloud"></div>
+    <div id="chico"></div>
+    <div id="sonic"></div>
+<script>
+    var images = [
+        "./beach1.jpg",
+        "./monkey_island2_1600.jpg",
+        "./monkey_island3_1600.jpg",
+        "./monkey_island4_1600.jpg"
+    ];
+
+    var img = document.getElementById("img");
+
+    function displayImage(x) {
+        img.style.backgroundImage = "url(" + images[x] + ")";
+        }
+
+    function startTimer() {
+        var x = 0;
+        displayImage(x);
+        setInterval(function() {
+            x = x + 1 >= images.length ? 0 : x + 1;
+            displayImage(x);
+        }, 6800);
+    }
+
+
+</script>
+</body>
+</html>
+

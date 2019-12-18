@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.swapingImages {
+    width: 1600px;
+    height: 700px;
+}
+
+
+/* #robot {
+    background: url(http://atomicrobotdesign.com/blog_media/css-sprite/walk-right.png);
+    width: 102px;
+    height: 148px;
+    animation: walk 1s steps(6) infinite;
+    margin-left: 20px; */
+/* } */
+
+#cloud {
+    background: url(./imageedit_2_5821395272.gif);
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    animation: forward 7s infinite;
+}
+
+#chico {
+    background: url(./walk-right.png);
+    width: 102px;
+	height: 148px;
+	margin-top: 40px;
+    animation: walk .9s steps(6) infinite, 
+               forward 7s infinite;
+    position: absolute;
+    bottom: 100px;
+}
+
+#sonic {
+    background: url(./sonic-corriendo.gif);
+    width: 145px;
+	height: 148px;
+	margin-top: 40px;
+    animation: sonic-forward 7s infinite;
+    position: absolute;
+    bottom: 100px;
+}
+
+@keyframes walk {
+    0% {
+        background-position: 0px;
+    }
+
+    100% {
+        background-position: -612px;
+    }
+}
+
+@keyframes forward {
+    0% {
+        transform: translate(-10px);
+    }
+
+    100% {
+        transform: translate(110vw);
+    }
+} 
+
+@keyframes sonic-forward {
+    0% {
+        transform: translate(-50px);
+    }
+
+    100% {
+        transform: translate(110vw);
+    }
+
+}
+
+@media screen (min-width: 1300px) {
+    .swapingImages {
+        width: 1900px;
+        height: 1300px;
+    }
+}
