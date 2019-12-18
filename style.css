@@ -18,7 +18,7 @@ h1 {
 }
 
 .fa-heartbeat {
-    color: red;
+    color: rgb(238, 36, 36);
 }
 
 .fa-diagnoses {
@@ -26,6 +26,7 @@ h1 {
 }
 
 section {
+    background-color: rgb(181, 143, 209);
     width: 95%;
     height: 60vh;
     border: 2px solid;
@@ -44,7 +45,7 @@ footer {
 }
 
 .fa-phone-volume {
-    color: green;
+    color: rgb(110, 241, 110);
     font-size: 3rem;
     padding: 1rem;
 
@@ -71,6 +72,10 @@ footer {
     text-align: center;
     top: -13%;
     left: -13%;
+}
+
+#for-info {
+    margin: 20px auto;
 }
 
 #for-events,
