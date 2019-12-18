@@ -10,20 +10,28 @@ Make an animal appear to hover over the screen using CSS
 
 (Answer whatever's relevant from the questions below, and include any other interesting details. Delete any non-relevant parts of this list)
 
-- Is this a real project (does someone really want this built?) or is it just an exercise?
-- Who is the intended user? (Only you, for practice? Recruiters/interviewers? A real client's real users?)
-- Who is the sponsor (client), if there is one?
-- What content is required? How will you obtain / create it? How will that impact your timeline?
-- What work needs to be done? In what order (priorities/dependencies)?
+- Is this a real project <strong>just an exercise<strong>
+- Who is the intended user? <strong>Me<strong>
+- Who is the sponsor <strong>I think Fede came up with this ridiculous idea<strong> "if there is one?"
+- What content is required? How will you obtain / create it? How will that impact your timeline and
+  what work needs to be done? In what order ?
+  -Create Toggle/lastPass accounts (est.30min/act.30min)
+  -create a wireframe (est.30min/act.20min)
+  -create a new branch (est.1min/act.1min)
+  -add a collaborator for review purposes (est.10min/act.5min)
+  -create basic setup as in html and css files (est.15min/act.10min)
+  -research animations (est.5 hours/act.pending)
+  -content sourcing
+  -code
+  -commit via Git
 
 ## Wireframes
 
-(sketch something quickly but clearly, e.g. on paper, and upload a picture here - or several, if you have different screens. consider mobile + desktop versions)
+https://drive.google.com/file/d/13T_17ANClglA69VhDWDoJNDlpwmdKWoL/view?usp=sharing "i know im an artist :)"
 
 ## Time
 
-- Estimated (add this before getting started)
-- Actual (add this on project completion)
+see details
 
 ## New skills
 
