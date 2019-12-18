@@ -6,11 +6,11 @@
 body{
     width: 100vw;
     height: 100vh;
-    margin: 0 100px;
+    margin: 0 30px;
 }
 
 .swapingImages {
-    width: 1600px;
+    width: 1900px;
     height: 880px;
 }
 
@@ -69,7 +69,7 @@ body{
     }
 
     100% {
-        transform: translate(110vw);
+        transform: translate(100vw);
     }
 } 
 

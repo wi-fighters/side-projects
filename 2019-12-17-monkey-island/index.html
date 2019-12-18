@@ -15,14 +15,10 @@
     <div id="sonic"></div>
 <script>
     const images = [
-        "./beach2.jpg",
-        "./monkey_island2_1600.jpg",
-        "./monkey_island3_1600.jpg",
-        "./monkey_island4_1600.jpg"
-    ];
-
-    const season = [
-        "Summer", "Autumn", "Winter", "Spring"
+        "./beach2_1300.jpg",
+        "./autumn_1300.jpg",
+        "./snow1_1300.jpg",
+        "./spring_1300.jpg"
     ];
 
     const imagesBigger = [
@@ -53,17 +49,15 @@
         // }, 6800);
     }
 
-    const mq = window.matchMedia( "(min-width:1300px)");
+    const mq = window.matchMedia("(max-width:1300px)");
 
     if (mq.matches) {
         function displayImage(x) {
-        img.style.backgroundImage = "url(" + imagesBigger[x] + ")";
-        
-        
+        img.style.backgroundImage = "url(" + images[x] + ")"; 
         }
     } else {
         function displayImage(x) {
-        img.style.backgroundImage = "url(" + images[x] + ")";
+        img.style.backgroundImage = "url(" + imagesBigger[x] + ")";
         }
 
     }
