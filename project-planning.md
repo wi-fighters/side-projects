@@ -30,15 +30,15 @@ Create the README (based project-log-template.md) 30 mins
 ### build
 
 - Make an **outline first** (HTML, CSS, write what you know)
-    - HTML with <!-- TODO: research keyframes --> - 1 hour
+    - HTML with &lt;!-- TODO: research keyframes --&gt; - 1 hour
     - first styles - 3 hours
 
-    <!--
+    &lt;!--
         TODO: break this task down into smaller tasks, e.g.:
         - add header
         - align header items
         - etc etc (you will discover more tasks as you continue. listing them as you go can help keep you on track)
-    -->
+    --&gt;
 
 - **Research with specific goals** only once your outline is done
 
