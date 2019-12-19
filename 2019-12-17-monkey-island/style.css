@@ -86,7 +86,9 @@ body{
 
 @media screen (max-width: 1300px) {
     .swapingImages {
-        width: 200px;
-        height: 596px;
+        width: 1299px;
+        height: 700px;
     }
 }
+
+@media screen (max-width: )
