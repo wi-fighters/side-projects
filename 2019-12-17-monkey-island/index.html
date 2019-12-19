@@ -9,24 +9,34 @@
     <title>Document</title>
 </head>
 <body onload="startTimer()">
-    <div id="img" class="swapingImages"></div>
-    <div id="cloud"></div>
-    <div id="chico"></div>
-    <div id="sonic"></div>
+    <div class="container">
+        <div id="img" class="swapingImages"></div>
+        <div id="cloud"></div>
+        <div id="chico"></div>
+        <div id="sonic"></div>
+    </div>
 <script>
     const images = [
-        "./beach2_1300.jpg",
-        "./autumn_1300.jpg",
-        "./snow1_1300.jpg",
-        "./spring_1300.jpg"
+        "./beach2_1300_new.jpg",
+        "./autumn_1300_new.jpg",
+        "./snow1_1300_new.jpg",
+        "./spring_1300_new.jpg"
     ];
 
-    const imagesBigger = [
-        "./beach2.jpg",
-        "./autumn.jpg",
-        "./snow1.jpg",
-        "./spring.jpg"
-    ];
+    // const imagesBigger = [
+    //     "./beach2.jpg",
+    //     "./autumn.jpg",
+    //     "./snow1.jpg",
+    //     "./spring.jpg"
+    // ];
+
+    const imagesSmaller = [
+        "./beach2_992_new.jpg",
+        "./autumn_992_new.jpg",
+        "./snow1_992_new.jpg",
+        "./spring_992_new.jpg"
+    ]
+
 
     const img = document.getElementById("img");
 
@@ -38,26 +48,21 @@
         var x = 0;
         displayImage(x);
         setInterval(function() {
-            x = x + 1 >= images.length ? 0 : x + 1;
+            x = x + 1 
+            // >= images.length ? 0 : x + 1;
             displayImage(x);
-        }, 6800);
-
-
-        // setInterval(function() {
-        //     x = x + 1 >= imagesBigger.length ? 0 : x + 1;
-        //     displayImage(x);
-        // }, 6800);
+        }, 1000);
     }
 
-    const mq = window.matchMedia("(max-width:1300px)");
+    const mq = window.matchMedia("(max-width:991px)");
 
     if (mq.matches) {
         function displayImage(x) {
-        img.style.backgroundImage = "url(" + images[x] + ")"; 
+        img.style.backgroundImage = "url(" + imagesSmaller[x] + ")"; 
         }
     } else {
         function displayImage(x) {
-        img.style.backgroundImage = "url(" + imagesBigger[x] + ")";
+        img.style.backgroundImage = "url(" + images[x] + ")";
         }
 
     }
