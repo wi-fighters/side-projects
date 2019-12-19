@@ -29,9 +29,12 @@ Make an animal appear to hover over the screen using CSS
 
 https://drive.google.com/file/d/13T_17ANClglA69VhDWDoJNDlpwmdKWoL/view?usp=sharing "i know im an artist :)"
 
+![image](https://drive.google.com/uc?export=view&id=13T_17ANClglA69VhDWDoJNDlpwmdKWoL)
+
 ## Time
 
-see details
+Estimated time: 10 hours / 1 week
+Actual time : pending
 
 ## New skills
 

@@ -38,6 +38,49 @@
     border-radius: 50% 50% 0% 29% / 100% 100% 10% 0%;
   }
 }
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  10% {
+    transform: translateY(-100px);
+  }
+  15% {
+    transform: translateY(-80px);
+  }
+  20% {
+    transform: translateY(-90px);
+  }
+  30% {
+    transform: translateY(-80px);
+  }
+  40% {
+    transform: translateY(-90px);
+  }
+  50% {
+    transform: translateY(-80px);
+  }
+  60% {
+    transform: translateY(-90px);
+  }
+  70% {
+    transform: translateY(-80px);
+  }
+  80% {
+    transform: translateY(-90px);
+  }
+  96% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.dog {
+  animation: float 10s ease-in-out infinite;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -47,6 +90,9 @@ body {
   align-items: center;
   height: 100vh;
   background: #d5d5d5;
+}
+
+.backdrop {
 }
 .dog-area {
   width: 150px;
