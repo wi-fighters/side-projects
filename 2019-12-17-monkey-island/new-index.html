@@ -1,12 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
-<body>
-    
+
+<body onload="startTimer()">
+    <div class="container">
+        <div id="img" class="swapingImages"></div>
+        <div id="chico"></div>
+        <div id="sonic"></div>
+        <div id="nube"></div>
+    </div>
+
+    <script>
+        const images = [
+            "./beach2_1300_new.jpg",
+            "./autumn_1300_new.jpg",
+            "./snow1_1300_new.jpg",
+            "./spring_1300_new.jpg",
+            "./theend_1300.jpg"
+        ];
+
+        const imagesSmaller = [
+            "./beach2_992_new.jpg",
+            "./autumn_992_new.jpg",
+            "./snow1_992_new.jpg",
+            "./spring_992_new.jpg",
+            "./theend_992x661.jpg"
+
+        ]
+
+        const imagesBigger = [
+            "./beach2.jpg",
+            "./autumn.jpg",
+            "./snow1.jpg",
+            "./spring.jpg",
+            "./theend_1920x1080.jpg"
+        ];
+
+
+
+
+        const img = document.getElementById("img");
+
+        function startTimer() {
+
+            var x = 0;
+            displayImage(x);
+            setInterval(function () {
+                x = x + 1
+                // >= images.length ? 0 : x + 1;
+                displayImage(x);
+            }, 7000);
+        }
+
+
+
+
+        const mq = window.matchMedia("(max-width:991px)");
+
+        if (mq.matches) {
+            function displayImage(x) {
+                img.style.backgroundImage = "url(" + imagesSmaller[x] + ")";
+            }
+        }
+
+        const mq2 = window.matchMedia("(min-width:992px");
+
+        if (mq2.matches) {
+            function displayImage(x) {
+                img.style.backgroundImage = "url(" + images[x] + ")";
+            }
+        }
+
+        const mq3 = window.matchMedia("(min-width:1301px)");
+
+        if (mq3.matches) {
+            function displayImage(x) {
+                img.style.backgroundImage = "url(" + imagesBigger[x] + ")";
+            }
+        }
+
+
+    </script>
+
 </body>
+
 </html>
